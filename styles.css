@@ -418,7 +418,7 @@
 .bg-1QIAus {
     background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
     filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
-    transform: scaleX(var(--background-image-scaleX));
+    transform: scaleX(1);
     z-index: -9999
 }
 
