@@ -23,7 +23,7 @@
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
     --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
-    --background-image-scaleX: 1
+    --background-image-scaleX: 1;
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
