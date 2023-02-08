@@ -23,6 +23,7 @@
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
     --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
+    --background-image-scaleX: 1
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -417,7 +418,7 @@
 .bg-1QIAus {
     background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
     filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
-    transform: scaleX(-1);
+    transform: scaleX(var(--background-image-scaleX));
     z-index: -9999
 }
 
